@@ -61,3 +61,18 @@ elif Q3 <= 4.00:
    print("Third Quarter Grade: ", Q3, "- Failed on condition")
 else:  
    print("Third Quarter Grade: ", Q3, "- Failed")
+
+if Q4 == 1.00:
+   print("Fourth Quarter Grade: ", Q4, "- Excellent")
+elif Q4 <= 1.50:
+   print("Fourth Quarter Grade: ", Q4, "- Very Good")
+elif Q4 <= 2.00:
+   print("Fourth Quarter Grade: ", Q4, "- Good")
+elif Q4 <= 2.50:
+   print("Fourth Quarter Grade: ", Q4, "- Satisfactory")
+elif Q4 <= 3.00:  
+   print("Fourth Quarter Grade: ", Q4, "- Fair")
+elif Q4 <= 4.00:
+   print("Fourth Quarter Grade: ", Q4, "- Failed on condition")
+else:  
+   print("Fourth Quarter Grade: ", Q4, "- Failed")
