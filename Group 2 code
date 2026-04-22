@@ -1,0 +1,33 @@
+tentative_Q1 = float(input("Enter the tentative grade for the first quarter: "))
+tentative_Q2 = float(input("Enter the tentative grade for the second quarter: "))
+tentative_Q3 = float(input("Enter the tentative grade for the third quarter: "))
+tentative_Q4 = float(input("Enter the tentative grade for the fourth quarter: "))
+
+#First quarter
+Q1 = tentative_Q1 
+#Second Quarter 
+Q2 = (Q1 + 2 * tentative_Q2) / 3 
+#Third Quarter 
+Q3 = (Q2 + 2 * tentative_Q3) / 3 
+#Fourth Quarter (Final Grade)
+Q4 = (Q3 + 2 * tentative_Q4) / 3
+
+Q1 = round(Q1, 2)
+Q2 = round(Q2, 2)
+Q3 = round(Q3, 2)
+Q4 = round(Q4, 2)
+
+if Q1 == 1.00:
+   print("First Quarter Grade: ", Q1, "- Excellent")
+elif Q1 <= 1.50:
+   print("First Quarter Grade: ", Q1, "- Very Good")
+elif Q1 <= 2.00:
+   print("First Quarter Grade: ", Q1, "- Good")
+elif Q1 <= 2.50:
+   print("First Quarter Grade: ", Q1, "- Satisfactory")
+elif Q1 <= 3.00:  
+   print("First Quarter Grade: ", Q1, "- Fair")
+elif Q1 <= 4.00:
+   print("First Quarter Grade: ", Q1, "- Failed on condition")
+else:  
+   print("First Quarter Grade: ", Q1, "- Failed")
