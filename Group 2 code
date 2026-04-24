@@ -4,7 +4,7 @@ tentative_Q2 = float(input("Enter the tentative grade for the second quarter: ")
 tentative_Q3 = float(input("Enter the tentative grade for the third quarter: "))
 tentative_Q4 = float(input("Enter the tentative grade for the fourth quarter: "))
 
-# This part pf the code calculates the final grade of each quarter.
+# This part of the code calculates the final grade of each quarter.
 #First quarter
 Q1 = tentative_Q1 
 #Second Quarter 
